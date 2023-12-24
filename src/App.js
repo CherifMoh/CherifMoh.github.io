@@ -1,8 +1,12 @@
 import React from 'react';
+import Nav from './components/Nav';
+
 
 export default function App() {
-  console.log('ch')
+ 
   return(
-    <div></div>
+    <nav>
+      <Nav />
+    </nav>
   )
 }
