@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './components/Nav';
 import Main from './components/Main';
+import About from './components/About';
 
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
     <nav>
       <Nav />
       <Main />
+      <About />
     </nav>
   )
 }
