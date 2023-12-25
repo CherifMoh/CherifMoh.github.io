@@ -89,7 +89,7 @@ main{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 100px;
+  padding-top: 100px;
   position: relative;
 }
 
@@ -139,7 +139,7 @@ main{
 
 .main-image{
   position: absolute;
-  top: -3px;
+  top: 97px;
   right: -251px;
 }
 
@@ -148,7 +148,7 @@ main{
   width: 24px;
   position: absolute;
   left: 38%;
-  top: -100px;
+  top: 0px;
 }
 
 .green-dot{
@@ -156,7 +156,7 @@ main{
   height: 55px;
   position: absolute;
   left: 34%;
-  top: -90px;
+  top: 10px;
 }
 
 .heart1{
@@ -164,7 +164,7 @@ main{
   height: 30px;
   position: absolute;
   left: -15%;
-  top: -90px;
+  top: 10px;
 }
 
 .heart2{
@@ -180,18 +180,22 @@ main{
   height: 300px;
   position: absolute;
   left:-36%;
-  top: 65px;
+  top: 155px;
   translate: 0px 0px;
 }
-
 .about-section{
+  padding-bottom: 170px;
+}
+
+.about-conatainer{
   position: relative;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
   display: flex;
   width: 1150px;
   justify-content: start;
   align-items: center;
   margin: auto;
+  margin-top: 100px;
 }
 
 .about-text-container{
@@ -235,10 +239,79 @@ main{
   padding: 0 42px;
 }
 
-.triangel1{
-  z-index: -100;
+.experience-conatainer{
+  padding: 25px 30px;
+  background: #faf8ff;
+  text-align: center;
+  position: relative;
+  margin-top: 25px;
+  width: 350px;
+  margin: auto;
+}
+
+.experience-conatainer::before{
+  content: '';
   position: absolute;
-  top: 100px;
-  left: -500px;
-  rotate: 300deg;
+  top: -25px;
+  left: -50px;
+  background: url(https://preview.colorlib.com/theme/satner/img/client-info-bg.png) no-repeat;
+  height: 175px;
+  width: 175px;
+}
+
+.years-experience-conatainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.year-experience{
+  color: #854fee;
+  font-family: "Rubik", sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 85px;
+  position: relative;
+  z-index: 9;
+}
+
+.experience-text{
+  text-align: left;
+  color: #000000;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.call-conatainer{
+  padding-top: 50px;
+  text-align: left;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-icon{
+  height: 60px;
+}
+
+.phone-number-container{
+  margin-left: 15px;
+}
+
+.phone-number-container p{
+  margin:0px ;
+  text-align: start;
+  color: #854fee;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.phone-number-container h3{
+  margin:0px ;
+  margin-bottom:8px ;
 }

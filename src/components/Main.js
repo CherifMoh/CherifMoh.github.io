@@ -8,7 +8,7 @@ import name from "../asists/name.svg";
 export default function Main() {
 
   return(
-    <main>
+    <main id='Main'>
         <img src={purpeldot} className='purpel-dot'></img>
         <img src={greendot} className='green-dot'></img>
         <img src={heart} className='heart1'></img>

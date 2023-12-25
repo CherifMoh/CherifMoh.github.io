@@ -34,8 +34,8 @@ export default function Header() {
             <img className="logo" src={logo} alt="" />
         </a>
         <nav className="navbar-container">
-                <a href='#' className="selected-nav navBar-elements">Home</a>
-                <a href='#' className="navBar-elements">About</a>
+                <a href='#Main' className="selected-nav navBar-elements">Home</a>
+                <a href='#About' className="navBar-elements">About</a>
                 <a href='#' className="navBar-elements">services</a>
                 <a href='#' className="navBar-elements">portfolio</a>
                 <a href='#' className="navBar-elements">contact</a>
