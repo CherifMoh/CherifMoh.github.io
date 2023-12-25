@@ -134,7 +134,6 @@ main{
   position: absolute;
   left: 38%;
   top: -100px;
-  animation: appear 2s linear ;
 }
 
 .green-dot{
@@ -143,7 +142,6 @@ main{
   position: absolute;
   left: 34%;
   top: -90px;
-  animation: appear 2s linear ;
 }
 
 .heart1{
@@ -152,7 +150,6 @@ main{
   position: absolute;
   left: -15%;
   top: -90px;
-  animation: appear 2s linear ;
 }
 
 .heart2{
@@ -161,7 +158,6 @@ main{
   position: absolute;
   right:-25%;
   top: 90px;
-  animation: appear 2s linear ;
 }
 
 .name-image{
@@ -171,14 +167,4 @@ main{
   left:-36%;
   top: 65px;
   translate: 0px 0px;
-}
-
-@keyframes appear {
-  0%{translate: 0px -1000px;}
-  30%{translate: 0px 0px;}
-  45%{translate: 0px -80px;}
-  60%{translate: 0px 0px;}
-  70%{translate: 0px -30px;}
-  90%{translate: 0px 0px;}
-  100%{translate: 0px 0px;}
 }
