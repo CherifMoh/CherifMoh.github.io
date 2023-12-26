@@ -5,10 +5,10 @@ import {ServicesData} from "../data/Services-data";
 
 
 export default function Services() {
-  
+
   const cartElemnt = ServicesData.map((Service)=>{
     return(
-      <div className='service-cart'>
+      <div className='service-card'>
           <img className='service-img' src={Service.img}></img>
           <h4 className='service-title'>{Service.title}</h4>
           <p className='service-text'>{Service.text}</p>
@@ -25,7 +25,7 @@ export default function Services() {
           <br />is in beast beginning signs open god you're gathering ithe
         </p>
       </header>
-      <div className='carts-container'>{cartElemnt}</div>
+      <div className='cards-container'>{cartElemnt}</div>
     </section>
   )
 }
