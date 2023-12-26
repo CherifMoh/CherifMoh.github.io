@@ -12,7 +12,7 @@ body {
   background: url(https://preview.colorlib.com/theme/satner/img/body-bg.png) no-repeat center;
 }
 
-header{
+.top-header{
   position: absolute;
   top: 0;
   width: 100%;
@@ -171,7 +171,7 @@ main{
   z-index: 1;
   height: 40px;
   position: absolute;
-  right:-30%;
+  right:-27%;
   top: 170px;
 }
 
@@ -179,7 +179,7 @@ main{
   z-index: -1;
   height: 70px;
   position: absolute;
-  right:-5%;
+  right:-4.3%;
   top: 77px;
 }
 
@@ -332,4 +332,69 @@ main{
 .phone-number-container h3{
   margin:0px ;
   margin-bottom:8px ;
+}
+
+.Services-header{
+  width: 1150px;
+  text-align: center;
+  margin: auto;
+  margin-bottom:100px ;
+}
+
+.Services-header-tile{
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.Services-header-text{
+  color:#777777;
+  font-size: 15px;
+}
+
+.carts-container{
+  display: grid;
+  grid-template-columns: 285px 285px 285px 285px;
+  max-width: 1150px;
+  margin: auto;
+  gap: 30px;
+}
+
+.service-cart{
+  cursor: pointer;
+  padding: 45px 10px;
+  text-align: center;
+  background: #f9f9fd;
+  cursor: pointer;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.service-cart:hover{
+  box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+  background: #fff;
+}
+
+.service-img{
+  height: 80px;
+  margin-bottom: 35px;
+}
+
+.service-title{
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.service-text{
+  margin: 0;
+  font-size: 15px;
+  color:#777777;
 }

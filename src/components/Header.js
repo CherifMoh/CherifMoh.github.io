@@ -9,8 +9,10 @@ export default function Header() {
     if (currentScroll >= 100) {
       setScroll(true)
       document.querySelector('.header-container').style.height = '70px';
+      document.querySelector('.top-header').style.boxShadow = '0px 3px 16px 0px rgba(0, 0, 0, 0.1)';
     }else{
       document.querySelector('.header-container').style.height = '100px';
+      document.querySelector('.top-header').style.boxShadow = '';
       setScroll(false)
     }
   }
@@ -28,7 +30,7 @@ export default function Header() {
     animation: 'header 0.5s ease-in-out',
   }:{}
   return(
-    <header style={styles}>
+    <header className='top-header' style={styles}>
       <div className='header-container'>
         <a href='../public/index.html' className="logo-container">
             <img className="logo" src={logo} alt="" />
@@ -36,7 +38,7 @@ export default function Header() {
         <nav className="navbar-container">
                 <a href='#Main' className="selected-nav navBar-elements">Home</a>
                 <a href='#About' className="navBar-elements">About</a>
-                <a href='#' className="navBar-elements">services</a>
+                <a href='#Services' className="navBar-elements">services</a>
                 <a href='#' className="navBar-elements">portfolio</a>
                 <a href='#' className="navBar-elements">contact</a>
         </nav>
