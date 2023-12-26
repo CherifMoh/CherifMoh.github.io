@@ -161,7 +161,7 @@ main{
 
 .heart1{
   z-index: 1;
-  height: 30px;
+  height: 40px;
   position: absolute;
   left: -15%;
   top: 10px;
@@ -169,11 +169,28 @@ main{
 
 .heart2{
   z-index: 1;
-  height: 30px;
+  height: 40px;
   position: absolute;
-  right:-25%;
-  top: 90px;
+  right:-30%;
+  top: 170px;
 }
+
+.lamp-image1{
+  z-index: -1;
+  height: 70px;
+  position: absolute;
+  right:-5%;
+  top: 77px;
+}
+
+.lamp-image2{
+  z-index: 1;
+  height: 70px;
+  position: absolute;
+  right: 58%;
+  top: 620px;
+}
+
 
 .name-image{
   z-index: -1;
@@ -183,6 +200,7 @@ main{
   top: 155px;
   translate: 0px 0px;
 }
+
 .about-section{
   padding-bottom: 170px;
 }

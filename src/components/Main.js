@@ -4,6 +4,7 @@ import purpeldot from "../asists/purpel dot.svg";
 import greendot from "../asists/green dot.svg";
 import heart from "../asists/heart beat.svg";
 import name from "../asists/name.svg";
+import lamp from "../asists/lamp.svg";
 
 export default function Main() {
 
@@ -14,6 +15,8 @@ export default function Main() {
         <img src={heart} className='heart1'></img>
         <img src={heart} className='heart2'></img>
         <img src={name} className='name-image'></img>
+        <img src={lamp} className='lamp-image1'></img>
+        <img src={lamp} className='lamp-image2'></img>
         <div className="banner-container">
             <h3 className="main-title">hello<img class="hello-line" src={line}></img></h3>
             <h1 className="main-name">i aM mansouri Cherif</h1>
