@@ -39,7 +39,7 @@ export default function Header() {
                 <a href='#Main' className="selected-nav navBar-elements">Home</a>
                 <a href='#About' className="navBar-elements">About</a>
                 <a href='#Services' className="navBar-elements">services</a>
-                <a href='#' className="navBar-elements">portfolio</a>
+                <a href='#Portfolio' className="navBar-elements">portfolio</a>
                 <a href='#' className="navBar-elements">contact</a>
         </nav>
       </div>

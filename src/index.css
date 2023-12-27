@@ -334,6 +334,10 @@ main{
   margin-bottom:8px ;
 }
 
+.Services-section{
+  padding-bottom: 135px;
+}
+
 .Services-header{
   width: 1150px;
   text-align: center;
@@ -397,4 +401,16 @@ main{
   margin: 0;
   font-size: 15px;
   color:#777777;
+}
+
+.Portfolio-title{
+  padding: 0 5px;
+  max-width: 1140px;
+  margin: auto;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: 50px;
+  text-transform: uppercase;
+  height: 200px;
 }

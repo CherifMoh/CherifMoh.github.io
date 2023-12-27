@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import About from './components/About';
 import Services from './components/Services';
+import Portfolio from './components/Portfolio';
 
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
       <Main />
       <About />
       <Services />
+      <Portfolio />
     </nav>
   )
 }
