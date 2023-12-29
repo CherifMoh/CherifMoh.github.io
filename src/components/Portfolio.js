@@ -1,7 +1,23 @@
 import React from 'react';
 import corse from '../asists/corse.svg';
+import {ProjectsData} from '../data/projects-data.js';
 
 export default function Portfolio() {
+
+  const projectsElemnt = ProjectsData.map(project=>{
+    return(
+      <a href={project.link} className='project-card-container'>
+        <div className='project-card-img-container'>
+          <img className='project-card-img' src={project.img} />
+          <div className='overlay'>
+          </div>
+            <img className='overlay-img' src={corse} />
+        </div>
+        <p className='project-card-title'>{project.title}</p>
+        <p className='project-card-text'>{project.text}</p>
+      </a>
+    )
+  })
 
   return(
     <section id='Portfolio' className='Portfolio-section'>
@@ -10,28 +26,7 @@ export default function Portfolio() {
         RECENTLY DONE PROJECT
         </h2>
         <div className='projects-container'>
-          <a href='#' className='project-card-container'>
-            <div className='project-card-img-container'>
-              <img className='project-card-img' src='https://preview.colorlib.com/theme/satner/img/portfolio/p1.jpg' />
-              <div className='overlay'>
-              </div>
-                <img className='overlay-img' src={corse} />
-            </div>
-            <p className='project-card-title'>MINIMAL DESIGN</p>
-            <p className='project-card-text'>Animated, portfolio</p>
-            
-          </a>
-          <a href='#' className='project-card-container'>
-            <div className='project-card-img-container'>
-              <img className='project-card-img' src='https://preview.colorlib.com/theme/satner/img/portfolio/p2.jpg' />
-              <div className='overlay'>
-              </div>
-                <img className='overlay-img' src={corse} />
-            </div>
-            <p className='project-card-title'>MINIMAL DESIGN</p>
-            <p className='project-card-text'>Animated, portfolio</p>
-            
-          </a>
+          {projectsElemnt}
         </div>
     </section>
   )
