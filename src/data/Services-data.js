@@ -1,4 +1,3 @@
-import React from 'react';
 import webDev from "../asists/web dev.svg";
 
 export const ServicesData =[
