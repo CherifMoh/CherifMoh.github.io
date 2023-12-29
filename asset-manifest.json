@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.ea5d8368.css",
+    "main.js": "/react-gh-pages/static/js/main.06d80900.js",
+    "static/media/youtube.png": "/react-gh-pages/static/media/youtube.b468e59faf9683d9b40a.png",
+    "static/media/Tenzies.png": "/react-gh-pages/static/media/Tenzies.2cc4ddd5bedea72c85bb.png",
+    "static/media/web dev.svg": "/react-gh-pages/static/media/web dev.ff632c0f1c5ac268aeb0f3c28d4ed5e1.svg",
+    "static/media/logo.svg": "/react-gh-pages/static/media/logo.7336a1cf9b5c670ea4d586b89660a45e.svg",
+    "static/media/lamp.svg": "/react-gh-pages/static/media/lamp.14b60edba9c0cf815418e5ff91ee5d81.svg",
+    "static/media/heart beat.svg": "/react-gh-pages/static/media/heart beat.2a76407e54fb703da142b9dc244f444a.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "static/media/name.svg": "/react-gh-pages/static/media/name.e5809d87b40d0d46085b4fe39927cf19.svg",
+    "static/media/hello-line.svg": "/react-gh-pages/static/media/hello-line.3374b2fc90df74d76c8b6a9675ca2623.svg",
+    "static/media/corse.svg": "/react-gh-pages/static/media/corse.b30cd412cb3c649f7b401e32128c6707.svg",
+    "static/media/green dot.svg": "/react-gh-pages/static/media/green dot.ab2475b94a2fb53e41752201ad93a84d.svg",
+    "static/media/purpel dot.svg": "/react-gh-pages/static/media/purpel dot.bd6c9ecd4059c093986992c4f127c63b.svg",
+    "main.ea5d8368.css.map": "/react-gh-pages/static/css/main.ea5d8368.css.map",
+    "main.06d80900.js.map": "/react-gh-pages/static/js/main.06d80900.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea5d8368.css",
+    "static/js/main.06d80900.js"
+  ]
+}
