@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.2ef57972.css",
-    "main.js": "/static/js/main.ca4fe426.js",
+    "main.js": "/static/js/main.9fb00456.js",
     "static/media/youtube.png": "/static/media/youtube.b468e59faf9683d9b40a.png",
     "static/media/Led-Painting.png": "/static/media/Led-Painting.75dc4fc7004fdc0114de.png",
+    "static/media/Memory.png": "/static/media/Memory.58c07a6f901e77b731dc.png",
+    "static/media/rock-paper-scissors.png": "/static/media/rock-paper-scissors.86a555089b2f5d0fe8ce.png",
     "static/media/Tenzies.png": "/static/media/Tenzies.2cc4ddd5bedea72c85bb.png",
     "static/media/web dev.svg": "/static/media/web dev.ff632c0f1c5ac268aeb0f3c28d4ed5e1.svg",
     "static/media/instagram_.svg": "/static/media/instagram_.1642bd33790b1d053ba338d3a29f770c.svg",
@@ -18,10 +20,10 @@
     "static/media/green dot.svg": "/static/media/green dot.ab2475b94a2fb53e41752201ad93a84d.svg",
     "static/media/purpel dot.svg": "/static/media/purpel dot.bd6c9ecd4059c093986992c4f127c63b.svg",
     "main.2ef57972.css.map": "/static/css/main.2ef57972.css.map",
-    "main.ca4fe426.js.map": "/static/js/main.ca4fe426.js.map"
+    "main.9fb00456.js.map": "/static/js/main.9fb00456.js.map"
   },
   "entrypoints": [
     "static/css/main.2ef57972.css",
-    "static/js/main.ca4fe426.js"
+    "static/js/main.9fb00456.js"
   ]
 }
