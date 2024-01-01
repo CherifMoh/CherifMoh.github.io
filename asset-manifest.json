@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.2ef57972.css",
-    "main.js": "/static/js/main.9fb00456.js",
+    "main.js": "/static/js/main.2e46b92f.js",
     "static/media/youtube.png": "/static/media/youtube.b468e59faf9683d9b40a.png",
     "static/media/Led-Painting.png": "/static/media/Led-Painting.75dc4fc7004fdc0114de.png",
+    "static/media/less.png": "/static/media/less.8ef09147ed0d3d4ff6c3.png",
     "static/media/Memory.png": "/static/media/Memory.58c07a6f901e77b731dc.png",
     "static/media/rock-paper-scissors.png": "/static/media/rock-paper-scissors.86a555089b2f5d0fe8ce.png",
     "static/media/Tenzies.png": "/static/media/Tenzies.2cc4ddd5bedea72c85bb.png",
@@ -20,10 +21,10 @@
     "static/media/green dot.svg": "/static/media/green dot.ab2475b94a2fb53e41752201ad93a84d.svg",
     "static/media/purpel dot.svg": "/static/media/purpel dot.bd6c9ecd4059c093986992c4f127c63b.svg",
     "main.2ef57972.css.map": "/static/css/main.2ef57972.css.map",
-    "main.9fb00456.js.map": "/static/js/main.9fb00456.js.map"
+    "main.2e46b92f.js.map": "/static/js/main.2e46b92f.js.map"
   },
   "entrypoints": [
     "static/css/main.2ef57972.css",
-    "static/js/main.9fb00456.js"
+    "static/js/main.2e46b92f.js"
   ]
 }
